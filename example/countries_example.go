@@ -80,6 +80,10 @@ func main() {
 	if countries.ByName("Iran, Islamic Republic Of") == countries.IRN {
 		fmt.Println("Yes! It's Iran!") // Yes! It's Iran!
 	}
+
+	if countries.ByName("polska").Alpha2() == "PL" {
+		fmt.Println("Yes! It's Poland")
+	}
 	// Database usage
 	/*
 		type User struct {
